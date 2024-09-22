@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(221, 213, 199);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 300px 0;
+}
+h1 {
+    color: rgb(37, 37, 37);
+}
