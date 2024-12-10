@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RPS console game</title>
+    <title>RPS GAME</title>
     <link rel="stylesheet" href="styles.css">
     <script src="js.js" defer></script>
 </head>
 <body>
     <div id="wrapper">
-        <div id="Current human score">Your score: 0</div>
-        <div id="Current computer score">Computer score: 0</div>
-        <div id="round">Round: 0</div>
-        <div id="rps-choice">
-            <button id="rock">ROCK</button>
-            <button id="paper">PAPER</button>
-            <button id="scissors">SCISSORS</button>
+        <div id="scoresrest">
+            <div id="scores">
+                <div id="Current human score">Your score: 0</div>
+                <div id="Current computer score">Computer score: 0</div>
+                <div id="round">Round: 0</div>
+            </div>
+            <button id="restart">RESTART GAME</button>
         </div>
-        <button id="restart">RESTART GAME</button>
-        <div id="message">make your choice to start the game</div>
+        <div id="choicemessage">
+            <div id="rps-choice">
+                <section id="rock"><img src="rock.png" alt="rockbutton"></section>
+                <section id="paper"><img src="paper.png" alt="paper"></section>
+                <section id="scissors"><img  src="scissors.png" alt="scissors"></section>
+            </div>
+            <div id="message">make your choice to start the game</div>
+        </div>
     </div>
 </body>
 </html>
